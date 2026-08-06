@@ -32,6 +32,6 @@ This project simulates a fully functional library system with distinct roles for
 3. Open your terminal or VS Code in that directory and run:
    ```bash
    python main.py
-   ## 📸 Program Screenshots
-
-![Screenshot ](menu.png)
+   ---
+## 📸 Program Screenshots
+![Screenshot](menu.png.png)
