@@ -1,37 +1,40 @@
-# 📚 Smart Library Management System
+# Smart Library Management System
 
-> A console-based library management system built with **Python**, implementing core **Object-Oriented Programming (OOP)** principles, role-based access, and robust file persistence.
+## Description
+This project is a simple Library Management System developed using Python and Object-Oriented Programming (OOP). It allows a librarian to manage books and allows students and teachers to borrow and return books.
 
----
+## Features
+- Add a new book
+- Remove a book
+- Search for a book
+- View all books
+- Display available books
+- Display borrowed books
+- Borrow a book
+- Return a book
 
-## 🌟 Overview
-This project simulates a fully functional library system with distinct roles for **Librarians**, **Teachers**, and **Students**. It handles book inventories, borrowing rules, and error handling seamlessly while keeping data safe across sessions using text files.
+## OOP Concepts Used
+- Classes and Objects
+- Inheritance
+- Encapsulation
+- Abstraction
+- Polymorphism
 
----
+## Project Files
+- main.py
+- book.py
+- user.py
+- student.py
+- teacher.py
+- librarian.py
 
-## 🛠️ OOP Principles Applied
-- **Inheritance:** `Student`, `Teacher`, and `Librarian` inherit from a central abstract `User` class.
-- **Encapsulation:** Managing and protecting object attributes properly.
-- **Polymorphism:** Overriding role-specific methods and behaviors.
-- **Abstraction:** Enforcing structure using Python's `abc` module.
+## How to Run
+1. Open the project folder in VS Code.
+2. Open the terminal.
+3. Run the following command:
 
----
-
-## 🚀 Features
-- **Role-Based Menus:** Tailored options and permissions for different users.
-- **Book Operations:** Add, remove, search, and view all, available, or borrowed books.
-- **Borrowing & Returning System:** Enforces role-specific borrowing limits and checks.
-- **Data Persistence (Bonus):** Automatically saves and loads library data using text files (`books.txt`).
-- **Exception Handling:** Bulletproof input validation to prevent crashes on invalid entries.
-
----
-
-## 💻 How to Run
-1. Make sure Python is installed on your machine.
-2. Clone or download the project files into a single directory.
-3. Open your terminal or VS Code in that directory and run:
-   ```bash
-   python main.py
+```bash
+python main.py
    ---
-## 📸 Program Screenshots
+## Program Screenshots
 ![Screenshot](menu.png.png)
