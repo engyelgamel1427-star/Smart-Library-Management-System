@@ -35,6 +35,3 @@ This project is a simple Library Management System developed using Python and Ob
 
 ```bash
 python main.py
-   ---
-## Program Screenshots
-![Screenshot](menu.png.png)
